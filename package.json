@@ -14,7 +14,8 @@
   },
   "keywords": [
     "js",
-    "javascript"
+    "javascript",
+    "excel"
   ],
   "author": "Felzer",
   "license": "ISC",
@@ -44,6 +45,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
-    "eslint": "^7.4.0"
+    "eslint": "^7.4.0",
+    "normalize.css": "^8.0.1"
   }
 }

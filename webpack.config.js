@@ -81,13 +81,10 @@ module.exports = {
                     'sass-loader',
                 ],
             },
-            {   test: /\.js$/,
+            {
+                test: /\.js$/,
                 exclude: /node_modules/,
-                use: jsLoaders(),
-                loader: 'babel-loader',
-                options: {
-                    presets: ['@babel/preset-env']
-                }
+                use: jsLoaders()
             }
         ]
     }
